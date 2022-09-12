@@ -126,11 +126,11 @@ display = pg.display.set_mode(DISPLAY_AREA)
 pg.display.set_caption("Flappy Plane")
 
 'BACKGROUND'
-bg = pg.image.load('assets/images/sprites/Background.png').convert()
-floor = pg.image.load('assets/images/sprites/jalan.png').convert_alpha()
+bg = pg.image.load('assets/images/sprites/bg-awan.png').convert()
+floor = pg.image.load('assets/images/sprites/jalan-hd-revisi.png').convert_alpha()
 floor_rect = floor.get_rect()
 floor_pos_x = 0
-building = pg.image.load('assets/images/sprites/gedung.png')
+building = pg.image.load('assets/images/sprites/gedung-1-hd-revisi.png')
 building_list = []
 building_spawn = pg.USEREVENT
 obstacle_number = 0
